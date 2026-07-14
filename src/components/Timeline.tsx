@@ -408,9 +408,7 @@ export default function Timeline() {
                           type="button"
                         >
                           <Show when={grp.length > 1}>
-                            <span class="count">
-                              {pieBg ? `${acqCount}/${grp.length}` : grp.length}
-                            </span>
+                            <span class="count">{grp.length}</span>
                           </Show>
                         </button>
                       );

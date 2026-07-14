@@ -779,7 +779,7 @@ details.group > summary .gcount {
   background: var(--gold-dim);
 }
 .tl-dot.has-chart {
-  border-color: var(--rule);
+  border: none;
 }
 .tl-dot .count {
   position: absolute;
