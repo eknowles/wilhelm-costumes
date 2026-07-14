@@ -37,7 +37,7 @@ export default function Sidebar() {
             <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.6" y2="16.6"/>
           </svg>
           <input
-            type="text"
+            type="search"
             placeholder="Title, venue, or city…"
             value={state.search}
             onInput={e => setState('search', (e.target as HTMLInputElement).value)}

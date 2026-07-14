@@ -2,7 +2,6 @@ import { createMemo, For, Show } from 'solid-js'
 import type { Production, GroupMode } from '../types'
 import DATA from '../data'
 import { state } from '../state'
-import { escapeHtml } from '../helpers'
 import { filteredData } from '../filter'
 
 function groupKey(d: Production, mode: GroupMode): string {
@@ -65,14 +64,14 @@ export default function Ledger(props: { onSelect?: (d: Production) => void }) {
                 <details class="group" open={openAttr}>
                   <summary>
                     <span class="arrow">▸</span>
-                    <span class="gname">{escapeHtml(k)}</span>
+                    <span class="gname">{k}</span>
                     <span class="gcount">{items.length} · {vKeys.length} venue{vKeys.length !== 1 ? 's' : ''}</span>
                   </summary>
                   <div class="group-body">
                     <For each={vKeys}>
                       {vk => (
                         <div class="venue-block">
-                          <h4>{escapeHtml(vk)}</h4>
+                          <h4>{vk}</h4>
                           <For each={venues[vk].sort(sortEntries)}>
                             {d => <EntryRow d={d} showSub={false} onClick={() => props.onSelect?.(d)} />}
                           </For>
@@ -88,7 +87,7 @@ export default function Ledger(props: { onSelect?: (d: Production) => void }) {
                 <details class="group" open={openAttr}>
                   <summary>
                     <span class="arrow">▸</span>
-                    <span class="gname">{escapeHtml(k)}</span>
+                    <span class="gname">{k}</span>
                     <span class="gcount">{items.length} production{items.length !== 1 ? 's' : ''}</span>
                   </summary>
                   <div class="group-body">
@@ -105,7 +104,7 @@ export default function Ledger(props: { onSelect?: (d: Production) => void }) {
               <details class="group" open={openAttr}>
                 <summary>
                   <span class="arrow">▸</span>
-                  <span class="gname">{escapeHtml(k)}</span>
+                  <span class="gname">{k}</span>
                   <span class="gcount">{items.length} production{items.length !== 1 ? 's' : ''}</span>
                 </summary>
                 <div class="group-body">
@@ -126,17 +125,17 @@ function EntryRow(props: { d: Production; showSub: boolean; onClick?: () => void
   const want = () => props.d.status === 'To be acquired'
   return (
     <div class="entry" classList={{ want: want(), clickable: !!props.onClick }} onClick={props.onClick}>
-      <span class="title">{escapeHtml(props.d.title)}</span>
+      <span class="title">{props.d.title}</span>
       <Show when={props.d.notes}>
         <span class="note-marker" title={props.d.notes}>*</span>
       </Show>
       <span class="leader"></span>
       <span class="meta-col">
         <Show when={props.showSub}>
-          <span class="sub">{escapeHtml(props.d.venue)} · {escapeHtml(props.d.city)}</span>
+          <span class="sub">{props.d.venue} · {props.d.city}</span>
         </Show>
       </span>
-      <span class="year" classList={{ want: want() }}>{escapeHtml(props.d.year || '—')}</span>
+      <span class="year" classList={{ want: want() }}>{props.d.year || '—'}</span>
     </div>
   )
 }

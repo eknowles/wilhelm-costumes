@@ -1,7 +1,6 @@
 import { createMemo, createSignal, For, onCleanup, onMount, Show } from 'solid-js'
 import type { Production } from '../types'
 import DATA from '../data'
-import { escapeHtml } from '../helpers'
 import { filteredData, groupKey } from '../filter'
 
 export default function Timeline() {
@@ -114,7 +113,7 @@ export default function Timeline() {
             items.forEach(d => (byYear[d._year!] = byYear[d._year!] || []).push(d))
             return (
               <div class="tl-lane">
-                <div class="tl-label" title={k}>{escapeHtml(k)}</div>
+                <div class="tl-label" title={k}>{k}</div>
                 <div class="tl-track">
                   <For each={Object.entries(byYear)}>
                     {([yr, grp]) => {
@@ -144,6 +143,16 @@ export default function Timeline() {
                           onMouseMove={e => showTip(titles, yr, k, anyWant, e.clientX, e.clientY)}
                           onMouseLeave={() => {
                             if (!tappedGroup()) setTooltip(null)
+                          }}
+                          onTouchStart={e => {
+                            e.preventDefault()
+                            if (tappedGroup() === dotKey) {
+                              dismissTooltip()
+                            } else {
+                              setTappedGroup(dotKey)
+                              const touch = e.touches[0]
+                              showTip(titles, yr, k, anyWant, touch.clientX, touch.clientY)
+                            }
                           }}
                         >
                           <Show when={grp.length > 1}>

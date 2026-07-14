@@ -1,7 +1,6 @@
 import { createMemo, For, Show } from 'solid-js'
 import type { Production } from '../types'
 import DATA from '../data'
-import { escapeHtml } from '../helpers'
 
 export default function DetailPanel(props: {
   production: Production | null
@@ -34,26 +33,26 @@ export default function DetailPanel(props: {
                 <div class="panel-status" classList={{ want: p().status === 'To be acquired' }}>
                   {p().status === 'To be acquired' ? 'Still to acquire' : 'In collection'}
                 </div>
-                <h2 class="panel-title">{escapeHtml(p().title)}</h2>
+                <h2 class="panel-title">{p().title}</h2>
                 <div class="panel-meta">
-                  <span class="panel-venue">{escapeHtml(p().venue)}</span>
+                  <span class="panel-venue">{p().venue}</span>
                   <span class="panel-sep">·</span>
-                  <span class="panel-city">{escapeHtml(p().city)}</span>
+                  <span class="panel-city">{p().city}</span>
                   <span class="panel-sep">·</span>
-                  <span class="panel-year">{escapeHtml(p().year)}</span>
+                  <span class="panel-year">{p().year}</span>
                 </div>
               </div>
 
               <Show when={p().notes}>
                 <div class="panel-notes">
                   <label>Notes</label>
-                  <p>{escapeHtml(p().notes)}</p>
+                  <p>{p().notes}</p>
                 </div>
               </Show>
 
               <Show when={sameVenue().length > 0}>
                 <div class="panel-related">
-                  <label>Other productions at {escapeHtml(p().venue)}</label>
+                  <label>Other productions at {p().venue}</label>
                   <For each={sameVenue()}>
                     {d => (
                       <div
@@ -61,7 +60,7 @@ export default function DetailPanel(props: {
                         classList={{ want: d.status === 'To be acquired' }}
                         onClick={() => props.onSelect?.(d)}
                       >
-                        <span class="pr-title">{escapeHtml(d.title)}</span>
+                        <span class="pr-title">{d.title}</span>
                         <span class="pr-year">{d.year}</span>
                       </div>
                     )}
@@ -79,7 +78,7 @@ export default function DetailPanel(props: {
                         classList={{ want: d.status === 'To be acquired' }}
                         onClick={() => props.onSelect?.(d)}
                       >
-                        <span class="pr-title">{escapeHtml(d.venue)}, {escapeHtml(d.city)}</span>
+                        <span class="pr-title">{d.venue}, {d.city}</span>
                         <span class="pr-year">{d.year}</span>
                       </div>
                     )}
