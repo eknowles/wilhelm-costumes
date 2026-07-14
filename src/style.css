@@ -629,6 +629,21 @@ details.group > summary .gcount {
   flex: 1;
   flex-direction: column;
   min-height: 0;
+  touch-action: pan-y;
+}
+.tl-zoom-btn {
+  padding: 1px 6px;
+  margin-left: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  color: var(--gold);
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--gold-dim);
+  border-radius: 3px;
+}
+.tl-zoom-btn:hover {
+  background: var(--gold-dim);
 }
 .tl-sparkline {
   display: flex;
@@ -759,6 +774,12 @@ details.group > summary .gcount {
 }
 .tl-dot.want {
   background: var(--red);
+}
+.tl-dot.multi {
+  background: var(--gold-dim);
+}
+.tl-dot.has-chart {
+  border-color: var(--rule);
 }
 .tl-dot .count {
   position: absolute;
@@ -1032,14 +1053,21 @@ details.group > summary .gcount {
     width: 120px;
   }
 }
-/* ── Touch devices: disable hover-only interactions ── */
+/* ── Touch devices ── */
 @media (pointer: coarse) {
+  .tl-dot {
+    width: 28px;
+    height: 28px;
+  }
   .tl-dot:hover {
     transform: translate(-50%, -50%) scale(1);
   }
   .tl-dot.tapped {
     z-index: 5;
     transform: translate(-50%, -50%) scale(1.35);
+  }
+  .tl-dot::before {
+    inset: -10px;
   }
 }
 
@@ -1058,8 +1086,8 @@ details.group > summary .gcount {
     font-size: 10px;
   }
   .tl-dot {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
   }
   .detail-panel {
     width: 100vw;

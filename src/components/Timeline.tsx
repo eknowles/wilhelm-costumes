@@ -1,4 +1,5 @@
 import {
+  createEffect,
   createMemo,
   createSignal,
   For,
@@ -9,6 +10,21 @@ import {
 import DATA from "../data";
 import { filteredData, groupKey } from "../filter";
 import type { Production } from "../types";
+
+function dotBackground(grp: Production[]): string {
+  if (grp.length <= 1) {
+    return "";
+  }
+  const acq = grp.filter((d) => d.status !== "To be acquired").length;
+  if (acq === 0) {
+    return "";
+  }
+  if (acq === grp.length) {
+    return "";
+  }
+  const pct = (acq / grp.length) * 100;
+  return `conic-gradient(var(--gold) 0deg ${pct}%, var(--red) ${pct}% 360deg)`;
+}
 
 export default function Timeline() {
   const list = createMemo(() => filteredData().filter((d) => d._year !== null));
@@ -50,15 +66,6 @@ export default function Timeline() {
     Object.keys(groups()).sort((a, b) => a.localeCompare(b))
   );
 
-  const ticks = createMemo(() => {
-    let t = "";
-    for (let y = Math.ceil(lo() / 10) * 10; y <= hi(); y += 10) {
-      const pct = ((y - lo()) / (hi() - lo())) * 100;
-      t += `<div class="tick" style="left:${pct}%">${y}</div>`;
-    }
-    return t;
-  });
-
   const [tooltip, setTooltip] = createSignal<{
     titles: string;
     year: string;
@@ -91,26 +98,144 @@ export default function Timeline() {
     setTooltip({ group, titles, wanted, x: clientX, y: clientY, year });
   };
 
+  const [zoomMin, setZoomMin] = createSignal(lo());
+  const [zoomMax, setZoomMax] = createSignal(hi());
+
+  createEffect(() => {
+    setZoomMin(lo());
+    setZoomMax(hi());
+  });
+
+  const effectiveLo = createMemo(() => Math.max(lo(), zoomMin()));
+  const effectiveHi = createMemo(() => Math.min(hi(), zoomMax()));
+
+  const posPct = (y: number) =>
+    ((y - effectiveLo()) / (effectiveHi() - effectiveLo())) * 100;
+
+  const zoomed = createMemo(() => effectiveLo() > lo() || effectiveHi() < hi());
+
+  const resetZoom = () => {
+    setZoomMin(lo());
+    setZoomMax(hi());
+  };
+
   const sparkBars = createMemo(() => {
     const bars: { year: number; pct: number }[] = [];
-    for (let y = lo(); y <= hi(); y += 1) {
+    for (let y = effectiveLo(); y <= effectiveHi(); y += 1) {
       const count = yearCounts()[y] || 0;
       bars.push({ pct: (count / maxCount()) * 100, year: y });
     }
     return bars;
   });
 
-  const posPct = (y: number) => ((y - lo()) / (hi() - lo())) * 100;
+  const ticks = createMemo(() => {
+    const range = effectiveHi() - effectiveLo();
+    let step: number;
+    if (range <= 15) {
+      step = 1;
+    } else if (range <= 30) {
+      step = 2;
+    } else if (range <= 60) {
+      step = 5;
+    } else {
+      step = 10;
+    }
+    const firstTick = Math.ceil(effectiveLo() / step) * step;
+    let t = "";
+    for (let y = firstTick; y <= effectiveHi(); y += step) {
+      const pct = posPct(y);
+      t += `<div class="tick" style="left:${pct}%">${y}</div>`;
+    }
+    return t;
+  });
+
+  /* ── Pinch zoom ── */
+  let pinchData: {
+    startDist: number;
+    startMin: number;
+    startMax: number;
+    center: number;
+    halfSpan: number;
+  } | null = null;
+
+  const onContainerTouchStart = (e: TouchEvent) => {
+    if (e.touches.length === 2) {
+      const [touchA, touchB] = e.touches;
+      const dx = touchA.clientX - touchB.clientX;
+      const dy = touchA.clientY - touchB.clientY;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      const smin = effectiveLo();
+      const smax = effectiveHi();
+      pinchData = {
+        center: (smin + smax) / 2,
+        halfSpan: (smax - smin) / 2,
+        startDist: dist,
+        startMax: smax,
+        startMin: smin,
+      };
+    }
+  };
+
+  const onContainerTouchMove = (e: TouchEvent) => {
+    if (e.touches.length === 2 && pinchData) {
+      e.preventDefault();
+      const [touchA, touchB] = e.touches;
+      const dx = touchA.clientX - touchB.clientX;
+      const dy = touchA.clientY - touchB.clientY;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      const ratio = pinchData.startDist / dist;
+      const newHalf = pinchData.halfSpan * ratio;
+      const newMin = Math.max(lo(), Math.round(pinchData.center - newHalf));
+      const newMax = Math.min(hi(), Math.round(pinchData.center + newHalf));
+      if (newMax - newMin >= 1) {
+        setZoomMin(newMin);
+        setZoomMax(newMax);
+      }
+    }
+  };
+
+  const onContainerTouchEnd = (e: TouchEvent) => {
+    if (e.touches.length < 2) {
+      pinchData = null;
+    }
+  };
+
+  /* ── Double-tap to reset zoom ── */
+  let lastTap = 0;
+  const onContainerTouch = (e: TouchEvent) => {
+    if (e.touches.length === 2) {
+      onContainerTouchStart(e);
+    }
+    if (e.touches.length === 1 && zoomed()) {
+      const now = Date.now();
+      if (now - lastTap < 300) {
+        resetZoom();
+        lastTap = 0;
+        return;
+      }
+      lastTap = now;
+    }
+  };
 
   return (
-    <div class="tl-container">
+    <div
+      class="tl-container"
+      onTouchEnd={onContainerTouchEnd}
+      onTouchMove={onContainerTouchMove}
+      onTouchStart={onContainerTouch}
+    >
       <div class="result-line">
         Showing {list().length} of {DATA.length} productions
+        {zoomed() && (
+          <button class="tl-zoom-btn" onClick={resetZoom} type="button">
+            Reset zoom ({effectiveLo()}–{effectiveHi()})
+          </button>
+        )}
       </div>
 
       <Show when={list().length}>
         <div class="tl-sparkline">
-          <div class="tl-spark-label">{lo()}</div>
+          <div class="tl-spark-label">{effectiveLo()}</div>
           <div class="tl-spark-track">
             <For each={sparkBars()}>
               {(b) => (
@@ -122,7 +247,7 @@ export default function Timeline() {
               )}
             </For>
           </div>
-          <div class="tl-spark-label">{hi()}</div>
+          <div class="tl-spark-label">{effectiveHi()}</div>
         </div>
       </Show>
 
@@ -138,10 +263,14 @@ export default function Timeline() {
             const byYear: Record<number, Production[]> = {};
             for (const d of items) {
               if (d._year !== null) {
-                if (!byYear[d._year]) {
-                  byYear[d._year] = [];
+                const y = d._year;
+                if (y < effectiveLo() || y > effectiveHi()) {
+                  continue;
                 }
-                byYear[d._year].push(d);
+                if (!byYear[y]) {
+                  byYear[y] = [];
+                }
+                byYear[y].push(d);
               }
             }
             return (
@@ -154,10 +283,27 @@ export default function Timeline() {
                     {([yr, grp]) => {
                       const y = Number.parseInt(yr, 10);
                       const pct = posPct(y);
-                      const anyWant = grp.some(
-                        (d) => d.status === "To be acquired"
-                      );
-                      const cls = anyWant ? "want" : "acq";
+                      const acqCount = grp.filter(
+                        (d) => d.status !== "To be acquired"
+                      ).length;
+                      const wantCount = grp.length - acqCount;
+                      const hasBoth =
+                        grp.length > 1 && acqCount > 0 && wantCount > 0;
+                      let cls: string;
+                      if (hasBoth) {
+                        cls = "multi";
+                      } else if (wantCount > 0) {
+                        cls = "want";
+                      } else {
+                        cls = "acq";
+                      }
+                      const pieBg = dotBackground(grp);
+                      const dotStyle: Record<string, string> = {
+                        left: `${pct}%`,
+                      };
+                      if (pieBg) {
+                        dotStyle.background = pieBg;
+                      }
                       const titles = grp
                         .map(
                           (d) =>
@@ -175,12 +321,26 @@ export default function Timeline() {
                           const rect = (
                             e.target as HTMLElement
                           ).getBoundingClientRect();
-                          showTip(titles, yr, k, anyWant, rect.left, rect.top);
+                          showTip(
+                            titles,
+                            yr,
+                            k,
+                            wantCount > 0,
+                            rect.left,
+                            rect.top
+                          );
                         }
                       };
 
                       const handleDotEnter = (e: MouseEvent) => {
-                        showTip(titles, yr, k, anyWant, e.clientX, e.clientY);
+                        showTip(
+                          titles,
+                          yr,
+                          k,
+                          wantCount > 0,
+                          e.clientX,
+                          e.clientY
+                        );
                       };
 
                       const handleDotLeave = () => {
@@ -190,7 +350,14 @@ export default function Timeline() {
                       };
 
                       const handleDotMove = (e: MouseEvent) => {
-                        showTip(titles, yr, k, anyWant, e.clientX, e.clientY);
+                        showTip(
+                          titles,
+                          yr,
+                          k,
+                          wantCount > 0,
+                          e.clientX,
+                          e.clientY
+                        );
                       };
 
                       const handleDotTouch = (e: TouchEvent) => {
@@ -204,7 +371,7 @@ export default function Timeline() {
                             titles,
                             yr,
                             k,
-                            anyWant,
+                            wantCount > 0,
                             touch.clientX,
                             touch.clientY
                           );
@@ -218,7 +385,7 @@ export default function Timeline() {
                             dismissTooltip();
                           } else {
                             setTappedGroup(dotKey);
-                            showTip(titles, yr, k, anyWant, 0, 0);
+                            showTip(titles, yr, k, wantCount > 0, 0, 0);
                           }
                         }
                       };
@@ -228,6 +395,7 @@ export default function Timeline() {
                           class="tl-dot"
                           classList={{
                             [cls]: true,
+                            "has-chart": !!pieBg,
                             tapped: tappedGroup() === dotKey,
                           }}
                           onClick={handleDotClick}
@@ -236,11 +404,13 @@ export default function Timeline() {
                           onMouseLeave={handleDotLeave}
                           onMouseMove={handleDotMove}
                           onTouchStart={handleDotTouch}
-                          style={{ left: `${pct}%` }}
+                          style={dotStyle}
                           type="button"
                         >
                           <Show when={grp.length > 1}>
-                            <span class="count">{grp.length}</span>
+                            <span class="count">
+                              {pieBg ? `${acqCount}/${grp.length}` : grp.length}
+                            </span>
                           </Show>
                         </button>
                       );
