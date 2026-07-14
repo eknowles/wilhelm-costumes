@@ -163,7 +163,7 @@ export default function Timeline() {
     return t;
   });
 
-  /* ── Pinch zoom ── */
+  /* ── Touch gestures: pinch to zoom, swipe to pan, double-tap to reset ── */
   let pinchData: {
     startDist: number;
     startMin: number;
@@ -172,11 +172,21 @@ export default function Timeline() {
     halfSpan: number;
   } | null = null;
 
-  const onContainerTouchStart = (e: TouchEvent) => {
+  let panStartX = 0;
+  let panStartY = 0;
+  let panStartMin = 0;
+  let panStartMax = 0;
+  let panActive = false;
+
+  let lastTap = 0;
+  const touchEl = (): HTMLElement | null =>
+    document.querySelector(".tl-lanes .tl-track");
+
+  const onTouchStart = (e: TouchEvent) => {
     if (e.touches.length === 2) {
-      const [touchA, touchB] = e.touches;
-      const dx = touchA.clientX - touchB.clientX;
-      const dy = touchA.clientY - touchB.clientY;
+      const [a, b] = e.touches;
+      const dx = a.clientX - b.clientX;
+      const dy = a.clientY - b.clientY;
       const dist = Math.sqrt(dx * dx + dy * dy);
       const smin = effectiveLo();
       const smax = effectiveHi();
@@ -187,40 +197,8 @@ export default function Timeline() {
         startMax: smax,
         startMin: smin,
       };
-    }
-  };
-
-  const onContainerTouchMove = (e: TouchEvent) => {
-    if (e.touches.length === 2 && pinchData) {
-      e.preventDefault();
-      const [touchA, touchB] = e.touches;
-      const dx = touchA.clientX - touchB.clientX;
-      const dy = touchA.clientY - touchB.clientY;
-      const dist = Math.sqrt(dx * dx + dy * dy);
-      const ratio = pinchData.startDist / dist;
-      const newHalf = pinchData.halfSpan * ratio;
-      const newMin = Math.max(lo(), Math.round(pinchData.center - newHalf));
-      const newMax = Math.min(hi(), Math.round(pinchData.center + newHalf));
-      if (newMax - newMin >= 1) {
-        setZoomMin(newMin);
-        setZoomMax(newMax);
-      }
-    }
-  };
-
-  const onContainerTouchEnd = (e: TouchEvent) => {
-    if (e.touches.length < 2) {
-      pinchData = null;
-    }
-  };
-
-  /* ── Double-tap to reset zoom ── */
-  let lastTap = 0;
-  const onContainerTouch = (e: TouchEvent) => {
-    if (e.touches.length === 2) {
-      onContainerTouchStart(e);
-    }
-    if (e.touches.length === 1 && zoomed()) {
+      panActive = false;
+    } else if (e.touches.length === 1 && zoomed()) {
       const now = Date.now();
       if (now - lastTap < 300) {
         resetZoom();
@@ -228,15 +206,82 @@ export default function Timeline() {
         return;
       }
       lastTap = now;
+      panStartX = e.touches[0].clientX;
+      panStartY = e.touches[0].clientY;
+      panStartMin = effectiveLo();
+      panStartMax = effectiveHi();
+      panActive = false;
+    }
+  };
+
+  const handlePinchMove = (e: TouchEvent) => {
+    if (!pinchData) {
+      return;
+    }
+    e.preventDefault();
+    const [a, b] = e.touches;
+    const dx = a.clientX - b.clientX;
+    const dy = a.clientY - b.clientY;
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    const ratio = pinchData.startDist / dist;
+    const newHalf = pinchData.halfSpan * ratio;
+    const newMin = Math.max(lo(), Math.round(pinchData.center - newHalf));
+    const newMax = Math.min(hi(), Math.round(pinchData.center + newHalf));
+    if (newMax - newMin >= 1) {
+      setZoomMin(newMin);
+      setZoomMax(newMax);
+    }
+  };
+
+  const handlePanMove = (e: TouchEvent) => {
+    const el = touchEl();
+    if (!el) {
+      return;
+    }
+    const cx = e.touches[0].clientX;
+    const cy = e.touches[0].clientY;
+    const dx = panStartX - cx;
+    const dy = panStartY - cy;
+    if (!panActive && Math.abs(dx) > 8 && Math.abs(dx) > Math.abs(dy)) {
+      panActive = true;
+    }
+    if (panActive) {
+      e.preventDefault();
+      const rect = el.getBoundingClientRect();
+      const range = panStartMax - panStartMin;
+      const shift = (dx / rect.width) * range;
+      const newMin = Math.max(lo(), Math.round(panStartMin + shift));
+      const newMax = Math.min(hi(), Math.round(panStartMax + shift));
+      if (newMax - newMin >= 1 && newMin >= lo() && newMax <= hi()) {
+        setZoomMin(newMin);
+        setZoomMax(newMax);
+      }
+    }
+  };
+
+  const onTouchMove = (e: TouchEvent) => {
+    if (e.touches.length === 2 && pinchData) {
+      handlePinchMove(e);
+    } else if (e.touches.length === 1 && zoomed()) {
+      handlePanMove(e);
+    }
+  };
+
+  const onTouchEnd = (e: TouchEvent) => {
+    if (e.touches.length < 2) {
+      pinchData = null;
+    }
+    if (e.touches.length === 0) {
+      panActive = false;
     }
   };
 
   return (
     <div
       class="tl-container"
-      onTouchEnd={onContainerTouchEnd}
-      onTouchMove={onContainerTouchMove}
-      onTouchStart={onContainerTouch}
+      onTouchEnd={onTouchEnd}
+      onTouchMove={onTouchMove}
+      onTouchStart={onTouchStart}
     >
       <div class="result-line">
         Showing {list().length} of {DATA.length} productions
