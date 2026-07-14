@@ -1,1 +1,3602 @@
-[{"city": "London", "venue": "Adelphi", "title": "Robin Hood & his Merry Little Men", "year": "1877", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Adelphi", "title": "Michael Strogoff", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Adelphi", "title": "Dick Whittington", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Adelphi", "title": "Cinderella", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Albert Palace", "title": "Our Empire", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Aldwych", "title": "Bluebell", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Aldwych", "title": "The Beauty of Bath", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Aldwych", "title": "The Gay Gordons", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Wildfire", "year": "1878", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "The Golden Wreath", "year": "1878", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Rothomago, or the Magic Watch", "year": "1879", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Mefistofele II", "year": "1880", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Jeanne, Jeannette and Jeanneton", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "The Bronze Horse", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Black Crook", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Babil and Bijou", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "The Merry War", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "The Golden Ring", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Beggar Student", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Black-Eyed See-usan", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Melusine", "year": "", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "The Swans - grand ballet divertissement", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Diona", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Antiope", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Ideala", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Alhambra", "title": "Now's the Time", "year": "1916", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Apollo", "title": "Three Little Maids", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Apollo", "title": "The Girl from Kays", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Apollo", "title": "Madam Sherry", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Apollo", "title": "The Dairymaids", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Apollo", "title": "Tom Jones", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Apollo", "title": "Everybody's Doing It!", "year": "1912", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Avenue", "title": "Manteaux Noirs", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Avenue", "title": "Whittington and his Cat", "year": "1882", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Avenue", "title": "La Vie", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Avenue", "title": "Lurette", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Avenue", "title": "Nell Gwynne", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Borough Theatre, Stratford East", "title": "My Girl", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Borough Theatre, Stratford East", "title": "Runaway Girl", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Borough Theatre, Stratford East", "title": "Cinderella", "year": "1905", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Borough Theatre, Stratford East", "title": "Babes in the Wood", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Borough Theatre, Stratford East", "title": "Aladdin", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Broadway SE", "title": "The Messenger Boy", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Camden", "title": "Bluebell in Fairyland", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Camden", "title": "The Orchid", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Camden", "title": "The New Aladdin", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Comedy", "title": "La Mascotte", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Comedy", "title": "Boccacio", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Comedy", "title": "Rip-van-Winkle", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Comedy", "title": "Falka", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Comedy", "title": "The Topsy-Turvy Hotel", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Comedy", "title": "Punch + Josephine", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Covent Garden Theatre Royal", "title": "Valentine + Orson", "year": "1880", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Covent Garden Theatre Royal", "title": "Little Bo-Peep", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Covent Garden Theatre Royal", "title": "St George & the Dragon", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crown Peckham SE", "title": "The Messenger Boy", "year": "1901", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Cinderella", "year": "1885-86", "status": "", "notes": "*"}, {"city": "London", "venue": "Crystal Palace", "title": "Red Riding Hood", "year": "1886-87", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Robinson Crusoe", "year": "1887-88", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Cinderella", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "A Midsummer Night's Dream", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Aladdin", "year": "1889", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Whittington and his Cat", "year": "1890", "status": "", "notes": "C"}, {"city": "London", "venue": "Crystal Palace", "title": "The Forty Thieves", "year": "1891", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "The Witches' Haunt", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Babes in the Wood", "year": "1892", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Jack and the Beanstalk", "year": "1893", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Blue Beard", "year": "1894", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "The Toreador", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "Blue-Bell in Fairyland", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Crystal Palace", "title": "The Dairymaids", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Dalys", "title": "An Artist's Model", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Dalys", "title": "The Little Michus", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Dalys", "title": "The Merveilleuses", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Dalys", "title": "La Danse", "year": "1914", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Dalys", "title": "Young England", "year": "1916", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Harlequin + The White Cat", "year": "1877", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Cinderella", "year": "1878", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Blue Beard", "year": "1879", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Whittington and his Cat", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Aladdin", "year": "1885", "status": "", "notes": "*"}, {"city": "London", "venue": "Drury Lane", "title": "Frivdi", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "40 Thieves", "year": "1886", "status": "", "notes": "*"}, {"city": "London", "venue": "Drury Lane", "title": "Puss in Boots", "year": "1887", "status": "", "notes": "*"}, {"city": "London", "venue": "Drury Lane", "title": "The Armada", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Babes in the Wood", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Babes in the Wood", "year": "1889", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Jack and the Beanstalk (Royal Theatrical Fund Jubilee Benefit)", "year": "1889", "status": "", "notes": "*"}, {"city": "London", "venue": "Drury Lane", "title": "Jack and the Beanstalk (R[ ] Theatrical Fund)", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Lurline", "year": "1890", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Aladdin", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "The Masque of War + Peace", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Drury Lane", "title": "Young England", "year": "1917", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Duke of York's (was Trafalgar Square Theatre)", "title": "Peter Pan", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Duke of York's (was Trafalgar Square Theatre)", "title": "Peter Pan", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Duke of York's (was Trafalgar Square Theatre)", "title": "Peter Pan", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Duke of York's (was Trafalgar Square Theatre)", "title": "Rosy Rapture (The Pride of the Beauty Chorus)", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Elephant and Castle", "title": "Don Juan", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Chilperic", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Palace of Pearl", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Dilara", "year": "1887", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Diane", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Rose d'Amour", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Scene des Fleurs du Ballet Rose d'Amour", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Cleopatra", "year": "1889", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Dream of Wealth", "year": "1889", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Cecile + New Dream of Wealth", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Dolly", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Cecile", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Orfeo", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Nisita", "year": "1891", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Second Edition. By the Sea + Versailles", "year": "1892", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Round the Town + Katrina", "year": "1893", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Versailles + Round the Town", "year": "1893", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "La Frolique + On Brighton Pier", "year": "1894", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Katrina", "year": "1894", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Girl I Left Behind Me", "year": "1894", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "On Brighton Pier + Faust", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "'La Danse' (charity show)", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "La Danse + Faust", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Monte Cristo", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Monte Cristo (last tableau) + Under One Flag", "year": "1897", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Press", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Alaska", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Round the Town Again", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Alaska", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Round the Town Again", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Sea-side", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Les Papillons", "year": "1901", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Old China", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Our Crown", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Milliner Duchess", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "A Duel in the Snow", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Bal Masque + Vineland", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "High Jinks", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "High Jinks (new edition)", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Dancing Doll (new edition)", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Bugle Call", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Cinderella + Venus 1906", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Fete Galante + Coppelia", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Debutante + Sir Roger De Coverley + Winter in Holland", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Vauxhall Gardens", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Belle of the Ball", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Living Pictures + Statuary. 'The Debutante'", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Oh Indeed + Coppelia", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Covent Garden + Coppelia", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Coppelia + The Dryad", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Day in Paris", "year": "1909", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Come Inside", "year": "1909", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "A Day in Paris + Roberto il Diavolo", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Round the World", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Dancing Master", "year": "1910", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "East and West + Hullo - London!", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Fantaisie Choreographique", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Faun + Ship Ahoy", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Widow of HJ Hutchins", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "New York", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Ship Ahoy! + By George!", "year": "1912", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Everybody's Doing It", "year": "1912", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "New York + The Water Nymph", "year": "1912", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "First Love", "year": "1912", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "All the Winners", "year": "1913", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Reaper's Dream", "year": "1913", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Gay Lothario", "year": "1913", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Titania", "year": "1913", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Dancing Master (revised edition)", "year": "1914", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Nuts & Wine", "year": "1914", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Europe", "year": "1914", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Europe + The Tri-Colour", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "The Vine", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Empire", "title": "Pastorale", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "Aladdin", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "Cinder-Ellen up Too Late", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "Second Edition", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "In Town", "year": "1892", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "Don Juan", "year": "1894", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The Shop Girl", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "My Girl", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "A Runaway Girl", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "In Town (Second Edition)", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The Messenger Boy", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The Toreador", "year": "1901", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "Meyer Lutz Matinee", "year": "1901", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "Toreador (revised edition)", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The Linkman", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The Orchid", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The Orchid", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The Spring Chicken", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Gaiety", "title": "The New Aladdin", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Garrick Theatre", "title": "My Girl", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Garrick Theatre", "title": "Cinderella", "year": "1897-98", "status": "", "notes": "*"}, {"city": "London", "venue": "Garrick Theatre", "title": "In Town (Prior to America)", "year": "1897", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Grand Theatre - Croydon", "title": "The Messenger Boy - Second Edition", "year": "1901", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Grand Theatre - Fulham", "title": "Babes in the Wood", "year": "1903", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Grand - Islington", "title": "Jack and the Beanstalk", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Grand - Islington", "title": "Puss in Boots", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Grand - Islington", "title": "Robinson Crusoe", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Grand - Islington", "title": "Sweet Cinderella", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Grand - Islington", "title": "Aladdin", "year": "1889", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Grand - Islington", "title": "Whittington & his Cat", "year": "1891-92", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Grand - Islington", "title": "The Shopgirl", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Her Majesty's", "title": "A Trip to the Moon", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Her Majesty's", "title": "Little Red Riding Hood", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Her Majesty's", "title": "The Van Dyke/War Committee", "year": "1915", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Her Majesty's", "title": "Princess and the Pea", "year": "1915", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Imperial Theatre", "title": "[see Royal Aquarium]", "year": "", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Kennington Theatre", "title": "Tom Jones", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Kennington Theatre", "title": "The Dairymaids", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Kings Theatre Hammersmith", "title": "Three Little Maids", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Kings Theatre Hammersmith", "title": "The Orchid", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Kings Theatre Hammersmith", "title": "The Arcadians", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "Dickens Centenary Celebration", "year": "1912", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "La Camargo", "year": "1912", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "The Colour of Life", "year": "1914", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "La Danse", "year": "1914", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "Robert Le Diable", "year": "1914", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "Genee farewell season", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "A Dream of Butterflies + Roses", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "extract from 'Javotte'", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "The Dancer's Adventure", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "The Pretty Prentice", "year": "1916", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "Spring Ballet + The Hunting Galop", "year": "1917", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "La Danse", "year": "1917", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "London Coliseum", "title": "The Debutante (revival)", "year": "1933", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Lyceum", "title": "Cinderella", "year": "1893", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Lyceum", "title": "Santa Claus", "year": "1894", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Lyceum", "title": "Robinson Crusoe", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Lyric", "title": "La Cigale", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Lyric", "title": "Bric a Brac Will", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Lyric", "title": "The Blue Moon", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "New Alexandra, Stoke Newington Road", "title": "The Shop Girl", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "New Olympic", "title": "Dick Whittington", "year": "1892", "status": "", "notes": "*"}, {"city": "London", "venue": "Novelty", "title": "Melita", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Novelty", "title": "Japs", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Novelty", "title": "Vanderdecken", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Novelty", "title": "Babes", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Novelty", "title": "Oliver Grumble", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Novelty", "title": "Flashes", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Olympia", "title": "Nero or The Destruction of Rome", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Olympia", "title": "Venice in London", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Olympia", "title": "Constantinople", "year": "1893", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Olympia", "title": "The Orient", "year": "1894-95", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Opera Comique", "title": "An Adamless Eden", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Opera Comique", "title": "Carina", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Palace", "title": "La Danse (charity matinee)", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Paragon", "title": "Our Empire", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Prince of Wales", "title": "Majorie", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Prince of Wales", "title": "Rose and the Ring", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Prince of Wales", "title": "In Town", "year": "1892", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Prince of Wales", "title": "Three Little Maids", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Queens", "title": "The Dairymaids", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Royal Aquarium [Imperial Theatre]", "title": "A Rough Diamond + Fun in a Fog", "year": "1879", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Royal Aquarium [Imperial Theatre]", "title": "Coralie (Grand Ballet)", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Royal Court", "title": "Prunella", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Royal Globe Theatre", "title": "The Vicar of Bray", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Royalty", "title": "Pluto!", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Royalty", "title": "Sinbad", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Royalty", "title": "Dr D", "year": "1885", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Savoy", "title": "Princess Ida", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Savoy", "title": "Sorcerer", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Savoy", "title": "Mikado", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Savoy", "title": "Ruddigore", "year": "1887", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Savoy", "title": "Jane Annie", "year": "1893", "status": "To be acquired", "notes": ""}, {"city": "London", "venue": "Savoy", "title": "Mikado (revival)", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Shaftesbury", "title": "Arcadians", "year": "1909", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Shaftesbury", "title": "Mousme", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Standard", "title": "Aladdin", "year": "1887", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Strand", "title": "Madame Favart", "year": "1879", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Strand", "title": "Olivette", "year": "1880", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Strand", "title": "Manola", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Strand", "title": "Cymbia", "year": "1883", "status": "", "notes": "*"}, {"city": "London", "venue": "Strand", "title": "Sultan of Mocha", "year": "1887", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Strand", "title": "Babette", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Toole's", "title": "The Babes, or Whines from the Wood", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Trafalgar Square Theatre [changed to Duke of York's]", "title": "The Wedding Eve", "year": "1892", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Vaudeville", "title": "Alice in Wonderland", "year": "1900-01", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Vaudeville", "title": "Bluebell in Fairyland", "year": "1901-02", "status": "", "notes": "*"}, {"city": "London", "venue": "Vaudeville", "title": "The Cherry Girl", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "London", "venue": "Wimbledon", "title": "The Arcadians", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "Bath", "venue": "Theatre Royal", "title": "Falka", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "Bath", "venue": "Theatre Royal", "title": "Bluebeard", "year": "1886", "status": "", "notes": "*"}, {"city": "Bath", "venue": "Theatre Royal", "title": "Don Juan", "year": "1894", "status": "Acquired", "notes": ""}, {"city": "Belfast", "venue": "Theatre Royal", "title": "Don Juan", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "Birmingham", "venue": "Grand Theatre", "title": "Cinderella", "year": "1894", "status": "To be acquired", "notes": ""}, {"city": "Birmingham", "venue": "Grand Theatre", "title": "Santa Claus", "year": "1895", "status": "To be acquired", "notes": ""}, {"city": "Birmingham", "venue": "Prince of Wales, Birmingham", "title": "Forty Thieves", "year": "1884", "status": "To be acquired", "notes": ""}, {"city": "Birmingham", "venue": "Prince of Wales, Birmingham", "title": "Aladdin", "year": "1901", "status": "To be acquired", "notes": ""}, {"city": "Birmingham", "venue": "Prince of Wales, Birmingham", "title": "Forty Thieves", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "Birmingham", "venue": "Theatre Royal", "title": "Cinderella", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "Birmingham", "venue": "Theatre Royal", "title": "Babes in the Wood", "year": "1904", "status": "To be acquired", "notes": ""}, {"city": "Birmingham", "venue": "Theatre Royal", "title": "Beauty of Bath", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "Birmingham", "venue": "Theatre Royal", "title": "Cinderella", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "Blackpool", "venue": "Her Majesty's Opera House", "title": "The Shop Girl", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "Bradford", "venue": "Bradford Theatre Royal", "title": "Tom Jones", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "Bradford", "venue": "Bradford Theatre Royal", "title": "The Dairymaids", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "Bradford", "venue": "Bradford Theatre Royal", "title": "The Arcadians", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "Brighton", "venue": "Theatre Royal, Brighton", "title": "The Babes", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "Brighton", "venue": "Theatre Royal, Brighton", "title": "The Messenger Boy", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "Brighton", "venue": "Theatre Royal, Brighton", "title": "Blue-Bell", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "Brighton", "venue": "Theatre Royal, Brighton", "title": "The Spring Chicken", "year": "1905", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "New Theatre Royal, Bristol (became Princes Theatre)", "title": "Forty Thieves", "year": "1879", "status": "To be acquired", "notes": ""}, {"city": "Bristol", "venue": "New Theatre Royal, Bristol (became Princes Theatre)", "title": "Cinderella", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "New Theatre Royal, Bristol (became Princes Theatre)", "title": "La Vie", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Dick Whittington", "year": "1882", "status": "", "notes": "*"}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Forty Thieves", "year": "1884", "status": "", "notes": "*"}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Babes", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Japs", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Little Red Riding Hood", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Vetah", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Sinbad the Sailor", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Babes in the Wood", "year": "1887", "status": "", "notes": "*"}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Falka", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Robinson Crusoe", "year": "1888", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Dick Whittington & his Cat", "year": "1888", "status": "To be acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Sweet Cinderella", "year": "1889", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Naughty Forty Thieves", "year": "1893", "status": "To be acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Shop Girl", "year": "1897", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Runaway Girl", "year": "1898", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Runaway Girl", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Orchid", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Arcadians", "year": "1909", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "The Arcadians", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "Bristol", "venue": "Prince's Theatre, Bristol (was New Theatre Royal)", "title": "Robinson Crusoe", "year": "1913", "status": "Acquired", "notes": ""}, {"city": "Cambridge", "venue": "New Theatre", "title": "The Dairy Maids", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "Dublin", "venue": "Gaiety Theatre", "title": "Lalla Rookh", "year": "1881", "status": "To be acquired", "notes": ""}, {"city": "Dublin", "venue": "Gaiety Theatre", "title": "Little Red Riding Hood", "year": "1882", "status": "To be acquired", "notes": ""}, {"city": "Dublin", "venue": "Gaiety Theatre", "title": "The Arcadians", "year": "1919", "status": "Acquired", "notes": ""}, {"city": "Dublin", "venue": "Theatre Royal", "title": "Harlequin, Ali Baba and the Forty Thieves", "year": "1879", "status": "To be acquired", "notes": ""}, {"city": "Eastbourne", "venue": "Devonshire Park Theatre", "title": "The Toreador", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "Eastbourne", "venue": "Devonshire Park Theatre", "title": "Aladdin", "year": "1915", "status": "Acquired", "notes": ""}, {"city": "Eastbourne", "venue": "Devonshire Park Theatre", "title": "The Arcadians", "year": "n/d", "status": "Acquired", "notes": ""}, {"city": "Eastbourne", "venue": "Theatre Royal", "title": "A Runaway Girl", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Empire Palace", "title": "Cinderella", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "Edinburgh", "venue": "King's Theatre", "title": "Cinderella", "year": "1906", "status": "To be acquired", "notes": ""}, {"city": "Edinburgh", "venue": "King's Theatre", "title": "Bluebell in Fairyland", "year": "1907", "status": "To be acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Royal Lyceum Theatre", "title": "Little Red Riding Hood", "year": "1883", "status": "To be acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Royal Lyceum Theatre", "title": "Jack and the Beanstalk", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Royal Lyceum Theatre", "title": "Forty Thieves", "year": "1885", "status": "To be acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Royal Princess's Theatre", "title": "Falka", "year": "1885", "status": "Acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Theatre Royal", "title": "Whittington and his Cat", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Theatre Royal", "title": "Robinson Crusoe", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "Edinburgh", "venue": "Theatre Royal", "title": "The Arcadians", "year": "1922", "status": "Acquired", "notes": ""}, {"city": "Glasgow", "venue": "Grand Theatre", "title": "Aladdin", "year": "1887", "status": "To be acquired", "notes": ""}, {"city": "Glasgow", "venue": "Theatre Royal", "title": "Bluebeard", "year": "1890", "status": "To be acquired", "notes": ""}, {"city": "Glasgow", "venue": "Theatre Royal", "title": "Little Bo Peep", "year": "1891", "status": "To be acquired", "notes": ""}, {"city": "Great Yarmouth", "venue": "Royal Aquarium", "title": "A Runaway Girl", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "Harrogate", "venue": "Opera House", "title": "The Arcadians", "year": "n/d", "status": "Acquired", "notes": ""}, {"city": "Hull", "venue": "Theatre Royal", "title": "Falka", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "Hull", "venue": "Theatre Royal", "title": "Robinson Crusoe", "year": "1886", "status": "To be acquired", "notes": ""}, {"city": "Hull", "venue": "Theatre Royal", "title": "Aladdin", "year": "1892", "status": "To be acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "Robinson Crusoe", "year": "1882", "status": "", "notes": "*"}, {"city": "Leeds", "venue": "Grand Theatre", "title": "Humpty Dumpty", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "Bo-Peep", "year": "1884", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "Three Little Maids", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "A Runaway Girl", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "The Orchid", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "Robinson Crusoe", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "The Dairymaids", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "The Dairymaids", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "Aladdin", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "The Dairymaids", "year": "1908", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Grand Theatre", "title": "The Arcadians", "year": "1918", "status": "Acquired", "notes": ""}, {"city": "Leeds", "venue": "Princes Theatre", "title": "The Toreador", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "Leicester", "venue": "Royal Opera House", "title": "The Shop Girl", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "Leicester", "venue": "Royal Opera House", "title": "The Toreador (2nd Edition)", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Forty Thieves", "year": "1879", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Robin Hood", "year": "1880", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Whittington & his Cat", "year": "1881", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Boccaccio", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Blue Beard", "year": "1882", "status": "To be acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Olivette", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "La Mascotte", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Jack the Giant Killer", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Aladdin in a New Light", "year": "1884", "status": "To be acquired", "notes": ""}, {"city": "Liverpool", "venue": "Alexandra Theatre", "title": "Cinderella", "year": "1885", "status": "To be acquired", "notes": ""}, {"city": "Liverpool", "venue": "Empire Palace", "title": "Cinderella", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Kelly's Theatre", "title": "The Dairy Maids", "year": "1910", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Lyric Theatre", "title": "The Messenger Boy", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Prince of Wales", "title": "Oliver Grumble", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Prince of Wales", "title": "Little Jack and the Big Beanstalk", "year": "1888", "status": "", "notes": "*"}, {"city": "Liverpool", "venue": "Prince of Wales", "title": "Aladdin", "year": "1889", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Prince of Wales", "title": "Robinson Crusoe", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Prince of Wales", "title": "Bluebell in Fairyland", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Prince of Wales", "title": "Bluebell in Fairyland", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "Liverpool", "venue": "Shakespeare Theatre", "title": "Dick Whittington and his Cat", "year": "1909", "status": "Acquired", "notes": ""}, {"city": "Lowestoft", "venue": "Marina Theatre", "title": "The Arcadians", "year": "1911", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Comedy", "title": "Jack and the Beanstalk", "year": "1885", "status": "", "notes": "*"}, {"city": "Manchester", "venue": "Comedy", "title": "Dick Whittington", "year": "1887", "status": "", "notes": "*"}, {"city": "Manchester", "venue": "Grand Theatre", "title": "Dick Whittington", "year": "1896", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Hippodrome", "title": "Spring Ballet + The Polka", "year": "1917", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Palace", "title": "Cleopatra", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Palace", "title": "Cecile", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Palace", "title": "Dolly", "year": "1892", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Forty Thieves", "year": "1879", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Jack and Jill", "year": "1883", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "A Runaway Girl", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Cinderella", "year": "1899", "status": "To be acquired", "notes": "checked"}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Aladdin or the Wonderful Lamp", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Messenger Boy", "year": "1900", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Midsummer Night's Dream", "year": "1901", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Sleeping Beauty", "year": "1901", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "As You Like It", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "The Forty Thieves", "year": "1903", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Cinderella", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Prince's Manchester", "title": "Orchid", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Queens - Manchester", "title": "Little Red Riding Hood", "year": "1883", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Queens - Manchester", "title": "Robinson Crusoe", "year": "1889", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Blue Beard", "year": "1880", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Little Bo Peep", "year": "1881", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Sinbad the Sailor", "year": "1882", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Harlequin Happy-go-Lucky + The Babes in the Wood", "year": "1883", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Dick Whittington", "year": "1885", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Bluebeard (Redyed)", "year": "1886", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Old Mother Goose", "year": "1887", "status": "Acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Babes in the Wood", "year": "1898", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Aladdin", "year": "1890", "status": "", "notes": "*"}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Bold Robin Hood + The Babes in the Wood", "year": "1903", "status": "", "notes": "*"}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Bold Robin Hood", "year": "1903", "status": "To be acquired", "notes": ""}, {"city": "Manchester", "venue": "Theatre Royal", "title": "Cinderella", "year": "1909", "status": "Acquired", "notes": ""}, {"city": "Newcastle", "venue": "Theatre Royal", "title": "Blue Beard", "year": "1882", "status": "To be acquired", "notes": ""}, {"city": "Newcastle", "venue": "Theatre Royal", "title": "Forty Thieves", "year": "1883", "status": "To be acquired", "notes": ""}, {"city": "Newcastle", "venue": "Theatre Royal", "title": "Little Red Riding Hood + Robin Hood", "year": "1884", "status": "", "notes": "*"}, {"city": "Newcastle", "venue": "Theatre Royal", "title": "Aladdin", "year": "1885", "status": "To be acquired", "notes": ""}, {"city": "Newcastle", "venue": "Theatre Royal", "title": "Carina", "year": "1889", "status": "Acquired", "notes": ""}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "Sindbad the Sailor", "year": "1883", "status": "", "notes": "*"}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "Jack and the Beanstalk", "year": "1884", "status": "", "notes": "*"}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "Cinderella or the Little Glass Slipper", "year": "1885", "status": "To be acquired", "notes": ""}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "Whittington & his Cat", "year": "1886", "status": "To be acquired", "notes": ""}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "The Fair One with the Golden Locks", "year": "1887", "status": "To be acquired", "notes": ""}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "Puss in Boots", "year": "1888", "status": "To be acquired", "notes": ""}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "Babes in the Wood", "year": "1889", "status": "", "notes": "*"}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "The Shop-Girl", "year": "1895", "status": "Acquired", "notes": ""}, {"city": "Newcastle", "venue": "Tyne Theatre", "title": "A Runaway Girl", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "Northampton", "venue": "Northampton Opera House", "title": "Marjorie", "year": "1890", "status": "Acquired", "notes": ""}, {"city": "Nottingham", "venue": "Grand Theatre", "title": "Forty Thieves", "year": "1887", "status": "Acquired", "notes": ""}, {"city": "Nottingham", "venue": "Theatre Royal, Nottingham", "title": "Falka", "year": "1891", "status": "Acquired", "notes": ""}, {"city": "Nottingham", "venue": "Theatre Royal, Nottingham", "title": "The Toreador", "year": "1902", "status": "Acquired", "notes": ""}, {"city": "Oxford", "venue": "New Theatre", "title": "The Shop Girl", "year": "1896", "status": "Acquired", "notes": ""}, {"city": "Oxford", "venue": "New Theatre", "title": "The Shop Girl", "year": "1899", "status": "Acquired", "notes": ""}, {"city": "Oxford", "venue": "New Theatre", "title": "Runaway Girl", "year": "1907", "status": "Acquired", "notes": ""}, {"city": "Oxford", "venue": "New Theatre", "title": "The Dairy Maids", "year": "", "status": "Acquired", "notes": ""}, {"city": "Portsmouth", "venue": "New Theatre Royal, Portsmouth", "title": "Falka", "year": "1887", "status": "Acquired", "notes": ""}, {"city": "Reading", "venue": "County Theatre", "title": "The Arcadians", "year": "1922", "status": "Acquired", "notes": ""}, {"city": "Scarborough", "venue": "Londesborough Theatre", "title": "Cinder-Eller up Too Late", "year": "1892", "status": "Acquired", "notes": ""}, {"city": "Sheffield", "venue": "Lyceum", "title": "Three Little Maids", "year": "1903", "status": "Acquired", "notes": ""}, {"city": "Sheffield", "venue": "Lyceum", "title": "The Orchid", "year": "1904", "status": "Acquired", "notes": ""}, {"city": "Sheffield", "venue": "Lyceum", "title": "The Spring Chicken", "year": "1906", "status": "Acquired", "notes": ""}, {"city": "Sheffield", "venue": "Lyceum", "title": "Dick Whittington and his Cat", "year": "1911-12", "status": "Acquired", "notes": ""}, {"city": "Sheffield", "venue": "New Theatre Royal", "title": "Jacks the Giant Killer", "year": "1880", "status": "To be acquired", "notes": ""}, {"city": "Sunderland", "venue": "Kings", "title": "The Arcadians", "year": "1911", "status": "Acquired", "notes": ""}]
+[
+  {
+    "city": "London",
+    "venue": "Adelphi",
+    "title": "Robin Hood & his Merry Little Men",
+    "year": "1877",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Adelphi",
+    "title": "Michael Strogoff",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Adelphi",
+    "title": "Dick Whittington",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Adelphi",
+    "title": "Cinderella",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Albert Palace",
+    "title": "Our Empire",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Aldwych",
+    "title": "Bluebell",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Aldwych",
+    "title": "The Beauty of Bath",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Aldwych",
+    "title": "The Gay Gordons",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Wildfire",
+    "year": "1878",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "The Golden Wreath",
+    "year": "1878",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Rothomago, or the Magic Watch",
+    "year": "1879",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Mefistofele II",
+    "year": "1880",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Jeanne, Jeannette and Jeanneton",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "The Bronze Horse",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Black Crook",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Babil and Bijou",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "The Merry War",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "The Golden Ring",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Beggar Student",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Black-Eyed See-usan",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Melusine",
+    "year": "",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "The Swans - grand ballet divertissement",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Diona",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Antiope",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Ideala",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Alhambra",
+    "title": "Now's the Time",
+    "year": "1916",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Apollo",
+    "title": "Three Little Maids",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Apollo",
+    "title": "The Girl from Kays",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Apollo",
+    "title": "Madam Sherry",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Apollo",
+    "title": "The Dairymaids",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Apollo",
+    "title": "Tom Jones",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Apollo",
+    "title": "Everybody's Doing It!",
+    "year": "1912",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Avenue",
+    "title": "Manteaux Noirs",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Avenue",
+    "title": "Whittington and his Cat",
+    "year": "1882",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Avenue",
+    "title": "La Vie",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Avenue",
+    "title": "Lurette",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Avenue",
+    "title": "Nell Gwynne",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Borough Theatre, Stratford East",
+    "title": "My Girl",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Borough Theatre, Stratford East",
+    "title": "Runaway Girl",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Borough Theatre, Stratford East",
+    "title": "Cinderella",
+    "year": "1905",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Borough Theatre, Stratford East",
+    "title": "Babes in the Wood",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Borough Theatre, Stratford East",
+    "title": "Aladdin",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Broadway SE",
+    "title": "The Messenger Boy",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Camden",
+    "title": "Bluebell in Fairyland",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Camden",
+    "title": "The Orchid",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Camden",
+    "title": "The New Aladdin",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Comedy",
+    "title": "La Mascotte",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Comedy",
+    "title": "Boccacio",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Comedy",
+    "title": "Rip-van-Winkle",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Comedy",
+    "title": "Falka",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Comedy",
+    "title": "The Topsy-Turvy Hotel",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Comedy",
+    "title": "Punch + Josephine",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Covent Garden Theatre Royal",
+    "title": "Valentine + Orson",
+    "year": "1880",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Covent Garden Theatre Royal",
+    "title": "Little Bo-Peep",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Covent Garden Theatre Royal",
+    "title": "St George & the Dragon",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crown Peckham SE",
+    "title": "The Messenger Boy",
+    "year": "1901",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Cinderella",
+    "year": "1885-86",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Red Riding Hood",
+    "year": "1886-87",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Robinson Crusoe",
+    "year": "1887-88",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Cinderella",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "A Midsummer Night's Dream",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Aladdin",
+    "year": "1889",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Whittington and his Cat",
+    "year": "1890",
+    "status": "",
+    "notes": "C"
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "The Forty Thieves",
+    "year": "1891",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "The Witches' Haunt",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Babes in the Wood",
+    "year": "1892",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Jack and the Beanstalk",
+    "year": "1893",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Blue Beard",
+    "year": "1894",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "The Toreador",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "Blue-Bell in Fairyland",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Crystal Palace",
+    "title": "The Dairymaids",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Dalys",
+    "title": "An Artist's Model",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Dalys",
+    "title": "The Little Michus",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Dalys",
+    "title": "The Merveilleuses",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Dalys",
+    "title": "La Danse",
+    "year": "1914",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Dalys",
+    "title": "Young England",
+    "year": "1916",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Harlequin + The White Cat",
+    "year": "1877",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Cinderella",
+    "year": "1878",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Blue Beard",
+    "year": "1879",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Whittington and his Cat",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Aladdin",
+    "year": "1885",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Frivdi",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "40 Thieves",
+    "year": "1886",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Puss in Boots",
+    "year": "1887",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "The Armada",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Babes in the Wood",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Babes in the Wood",
+    "year": "1889",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Jack and the Beanstalk (Royal Theatrical Fund Jubilee Benefit)",
+    "year": "1889",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Jack and the Beanstalk (R[ ] Theatrical Fund)",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Lurline",
+    "year": "1890",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Aladdin",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "The Masque of War + Peace",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Drury Lane",
+    "title": "Young England",
+    "year": "1917",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Duke of York's (was Trafalgar Square Theatre)",
+    "title": "Peter Pan",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Duke of York's (was Trafalgar Square Theatre)",
+    "title": "Peter Pan",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Duke of York's (was Trafalgar Square Theatre)",
+    "title": "Peter Pan",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Duke of York's (was Trafalgar Square Theatre)",
+    "title": "Rosy Rapture (The Pride of the Beauty Chorus)",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Elephant and Castle",
+    "title": "Don Juan",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Chilperic",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Palace of Pearl",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Dilara",
+    "year": "1887",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Diane",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Rose d'Amour",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Scene des Fleurs du Ballet Rose d'Amour",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Cleopatra",
+    "year": "1889",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Dream of Wealth",
+    "year": "1889",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Cecile + New Dream of Wealth",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Dolly",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Cecile",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Orfeo",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Nisita",
+    "year": "1891",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Second Edition. By the Sea + Versailles",
+    "year": "1892",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Round the Town + Katrina",
+    "year": "1893",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Versailles + Round the Town",
+    "year": "1893",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "La Frolique + On Brighton Pier",
+    "year": "1894",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Katrina",
+    "year": "1894",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Girl I Left Behind Me",
+    "year": "1894",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "On Brighton Pier + Faust",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "'La Danse' (charity show)",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "La Danse + Faust",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Monte Cristo",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Monte Cristo (last tableau) + Under One Flag",
+    "year": "1897",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Press",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Alaska",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Round the Town Again",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Alaska",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Round the Town Again",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Sea-side",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Les Papillons",
+    "year": "1901",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Old China",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Our Crown",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Milliner Duchess",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "A Duel in the Snow",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Bal Masque + Vineland",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "High Jinks",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "High Jinks (new edition)",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Dancing Doll (new edition)",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Bugle Call",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Cinderella + Venus 1906",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Fete Galante + Coppelia",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Debutante + Sir Roger De Coverley + Winter in Holland",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Vauxhall Gardens",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Belle of the Ball",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Living Pictures + Statuary. 'The Debutante'",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Oh Indeed + Coppelia",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Covent Garden + Coppelia",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Coppelia + The Dryad",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Day in Paris",
+    "year": "1909",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Come Inside",
+    "year": "1909",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "A Day in Paris + Roberto il Diavolo",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Round the World",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Dancing Master",
+    "year": "1910",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "East and West + Hullo - London!",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Fantaisie Choreographique",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Faun + Ship Ahoy",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Widow of HJ Hutchins",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "New York",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Ship Ahoy! + By George!",
+    "year": "1912",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Everybody's Doing It",
+    "year": "1912",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "New York + The Water Nymph",
+    "year": "1912",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "First Love",
+    "year": "1912",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "All the Winners",
+    "year": "1913",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Reaper's Dream",
+    "year": "1913",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Gay Lothario",
+    "year": "1913",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Titania",
+    "year": "1913",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Dancing Master (revised edition)",
+    "year": "1914",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Nuts & Wine",
+    "year": "1914",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Europe",
+    "year": "1914",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Europe + The Tri-Colour",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "The Vine",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Empire",
+    "title": "Pastorale",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "Aladdin",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "Cinder-Ellen up Too Late",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "Second Edition",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "In Town",
+    "year": "1892",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "Don Juan",
+    "year": "1894",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The Shop Girl",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "My Girl",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "A Runaway Girl",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "In Town (Second Edition)",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The Messenger Boy",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The Toreador",
+    "year": "1901",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "Meyer Lutz Matinee",
+    "year": "1901",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "Toreador (revised edition)",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The Linkman",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The Orchid",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The Orchid",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The Spring Chicken",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Gaiety",
+    "title": "The New Aladdin",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Garrick Theatre",
+    "title": "My Girl",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Garrick Theatre",
+    "title": "Cinderella",
+    "year": "1897-98",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Garrick Theatre",
+    "title": "In Town (Prior to America)",
+    "year": "1897",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand Theatre - Croydon",
+    "title": "The Messenger Boy - Second Edition",
+    "year": "1901",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand Theatre - Fulham",
+    "title": "Babes in the Wood",
+    "year": "1903",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand - Islington",
+    "title": "Jack and the Beanstalk",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand - Islington",
+    "title": "Puss in Boots",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand - Islington",
+    "title": "Robinson Crusoe",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand - Islington",
+    "title": "Sweet Cinderella",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand - Islington",
+    "title": "Aladdin",
+    "year": "1889",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand - Islington",
+    "title": "Whittington & his Cat",
+    "year": "1891-92",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Grand - Islington",
+    "title": "The Shopgirl",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Her Majesty's",
+    "title": "A Trip to the Moon",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Her Majesty's",
+    "title": "Little Red Riding Hood",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Her Majesty's",
+    "title": "The Van Dyke/War Committee",
+    "year": "1915",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Her Majesty's",
+    "title": "Princess and the Pea",
+    "year": "1915",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Imperial Theatre",
+    "title": "[see Royal Aquarium]",
+    "year": "",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Kennington Theatre",
+    "title": "Tom Jones",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Kennington Theatre",
+    "title": "The Dairymaids",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Kings Theatre Hammersmith",
+    "title": "Three Little Maids",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Kings Theatre Hammersmith",
+    "title": "The Orchid",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Kings Theatre Hammersmith",
+    "title": "The Arcadians",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "Dickens Centenary Celebration",
+    "year": "1912",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "La Camargo",
+    "year": "1912",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "The Colour of Life",
+    "year": "1914",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "La Danse",
+    "year": "1914",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "Robert Le Diable",
+    "year": "1914",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "Genee farewell season",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "A Dream of Butterflies + Roses",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "extract from 'Javotte'",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "The Dancer's Adventure",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "The Pretty Prentice",
+    "year": "1916",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "Spring Ballet + The Hunting Galop",
+    "year": "1917",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "La Danse",
+    "year": "1917",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "London Coliseum",
+    "title": "The Debutante (revival)",
+    "year": "1933",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Lyceum",
+    "title": "Cinderella",
+    "year": "1893",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Lyceum",
+    "title": "Santa Claus",
+    "year": "1894",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Lyceum",
+    "title": "Robinson Crusoe",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Lyric",
+    "title": "La Cigale",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Lyric",
+    "title": "Bric a Brac Will",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Lyric",
+    "title": "The Blue Moon",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "New Alexandra, Stoke Newington Road",
+    "title": "The Shop Girl",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "New Olympic",
+    "title": "Dick Whittington",
+    "year": "1892",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Novelty",
+    "title": "Melita",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Novelty",
+    "title": "Japs",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Novelty",
+    "title": "Vanderdecken",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Novelty",
+    "title": "Babes",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Novelty",
+    "title": "Oliver Grumble",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Novelty",
+    "title": "Flashes",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Olympia",
+    "title": "Nero or The Destruction of Rome",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Olympia",
+    "title": "Venice in London",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Olympia",
+    "title": "Constantinople",
+    "year": "1893",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Olympia",
+    "title": "The Orient",
+    "year": "1894-95",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Opera Comique",
+    "title": "An Adamless Eden",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Opera Comique",
+    "title": "Carina",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Palace",
+    "title": "La Danse (charity matinee)",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Paragon",
+    "title": "Our Empire",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Prince of Wales",
+    "title": "Majorie",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Prince of Wales",
+    "title": "Rose and the Ring",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Prince of Wales",
+    "title": "In Town",
+    "year": "1892",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Prince of Wales",
+    "title": "Three Little Maids",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Queens",
+    "title": "The Dairymaids",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Royal Aquarium [Imperial Theatre]",
+    "title": "A Rough Diamond + Fun in a Fog",
+    "year": "1879",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Royal Aquarium [Imperial Theatre]",
+    "title": "Coralie (Grand Ballet)",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Royal Court",
+    "title": "Prunella",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Royal Globe Theatre",
+    "title": "The Vicar of Bray",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Royalty",
+    "title": "Pluto!",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Royalty",
+    "title": "Sinbad",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Royalty",
+    "title": "Dr D",
+    "year": "1885",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Savoy",
+    "title": "Princess Ida",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Savoy",
+    "title": "Sorcerer",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Savoy",
+    "title": "Mikado",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Savoy",
+    "title": "Ruddigore",
+    "year": "1887",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Savoy",
+    "title": "Jane Annie",
+    "year": "1893",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Savoy",
+    "title": "Mikado (revival)",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Shaftesbury",
+    "title": "Arcadians",
+    "year": "1909",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Shaftesbury",
+    "title": "Mousme",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Standard",
+    "title": "Aladdin",
+    "year": "1887",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Strand",
+    "title": "Madame Favart",
+    "year": "1879",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Strand",
+    "title": "Olivette",
+    "year": "1880",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Strand",
+    "title": "Manola",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Strand",
+    "title": "Cymbia",
+    "year": "1883",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Strand",
+    "title": "Sultan of Mocha",
+    "year": "1887",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Strand",
+    "title": "Babette",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Toole's",
+    "title": "The Babes, or Whines from the Wood",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Trafalgar Square Theatre [changed to Duke of York's]",
+    "title": "The Wedding Eve",
+    "year": "1892",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Vaudeville",
+    "title": "Alice in Wonderland",
+    "year": "1900-01",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Vaudeville",
+    "title": "Bluebell in Fairyland",
+    "year": "1901-02",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "London",
+    "venue": "Vaudeville",
+    "title": "The Cherry Girl",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "London",
+    "venue": "Wimbledon",
+    "title": "The Arcadians",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bath",
+    "venue": "Theatre Royal",
+    "title": "Falka",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bath",
+    "venue": "Theatre Royal",
+    "title": "Bluebeard",
+    "year": "1886",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Bath",
+    "venue": "Theatre Royal",
+    "title": "Don Juan",
+    "year": "1894",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Belfast",
+    "venue": "Theatre Royal",
+    "title": "Don Juan",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Grand Theatre",
+    "title": "Cinderella",
+    "year": "1894",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Grand Theatre",
+    "title": "Santa Claus",
+    "year": "1895",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Prince of Wales, Birmingham",
+    "title": "Forty Thieves",
+    "year": "1884",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Prince of Wales, Birmingham",
+    "title": "Aladdin",
+    "year": "1901",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Prince of Wales, Birmingham",
+    "title": "Forty Thieves",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Theatre Royal",
+    "title": "Cinderella",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Theatre Royal",
+    "title": "Babes in the Wood",
+    "year": "1904",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Theatre Royal",
+    "title": "Beauty of Bath",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Birmingham",
+    "venue": "Theatre Royal",
+    "title": "Cinderella",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Blackpool",
+    "venue": "Her Majesty's Opera House",
+    "title": "The Shop Girl",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bradford",
+    "venue": "Bradford Theatre Royal",
+    "title": "Tom Jones",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bradford",
+    "venue": "Bradford Theatre Royal",
+    "title": "The Dairymaids",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bradford",
+    "venue": "Bradford Theatre Royal",
+    "title": "The Arcadians",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Brighton",
+    "venue": "Theatre Royal, Brighton",
+    "title": "The Babes",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Brighton",
+    "venue": "Theatre Royal, Brighton",
+    "title": "The Messenger Boy",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Brighton",
+    "venue": "Theatre Royal, Brighton",
+    "title": "Blue-Bell",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Brighton",
+    "venue": "Theatre Royal, Brighton",
+    "title": "The Spring Chicken",
+    "year": "1905",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "New Theatre Royal, Bristol (became Princes Theatre)",
+    "title": "Forty Thieves",
+    "year": "1879",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "New Theatre Royal, Bristol (became Princes Theatre)",
+    "title": "Cinderella",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "New Theatre Royal, Bristol (became Princes Theatre)",
+    "title": "La Vie",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Dick Whittington",
+    "year": "1882",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Forty Thieves",
+    "year": "1884",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Babes",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Japs",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Little Red Riding Hood",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Vetah",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Sinbad the Sailor",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Babes in the Wood",
+    "year": "1887",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Falka",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Robinson Crusoe",
+    "year": "1888",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Dick Whittington & his Cat",
+    "year": "1888",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Sweet Cinderella",
+    "year": "1889",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Naughty Forty Thieves",
+    "year": "1893",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Shop Girl",
+    "year": "1897",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Runaway Girl",
+    "year": "1898",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Runaway Girl",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Orchid",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Arcadians",
+    "year": "1909",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "The Arcadians",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Bristol",
+    "venue": "Prince's Theatre, Bristol (was New Theatre Royal)",
+    "title": "Robinson Crusoe",
+    "year": "1913",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Cambridge",
+    "venue": "New Theatre",
+    "title": "The Dairy Maids",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Dublin",
+    "venue": "Gaiety Theatre",
+    "title": "Lalla Rookh",
+    "year": "1881",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Dublin",
+    "venue": "Gaiety Theatre",
+    "title": "Little Red Riding Hood",
+    "year": "1882",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Dublin",
+    "venue": "Gaiety Theatre",
+    "title": "The Arcadians",
+    "year": "1919",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Dublin",
+    "venue": "Theatre Royal",
+    "title": "Harlequin, Ali Baba and the Forty Thieves",
+    "year": "1879",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Eastbourne",
+    "venue": "Devonshire Park Theatre",
+    "title": "The Toreador",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Eastbourne",
+    "venue": "Devonshire Park Theatre",
+    "title": "Aladdin",
+    "year": "1915",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Eastbourne",
+    "venue": "Devonshire Park Theatre",
+    "title": "The Arcadians",
+    "year": "n/d",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Eastbourne",
+    "venue": "Theatre Royal",
+    "title": "A Runaway Girl",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Empire Palace",
+    "title": "Cinderella",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "King's Theatre",
+    "title": "Cinderella",
+    "year": "1906",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "King's Theatre",
+    "title": "Bluebell in Fairyland",
+    "year": "1907",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Royal Lyceum Theatre",
+    "title": "Little Red Riding Hood",
+    "year": "1883",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Royal Lyceum Theatre",
+    "title": "Jack and the Beanstalk",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Royal Lyceum Theatre",
+    "title": "Forty Thieves",
+    "year": "1885",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Royal Princess's Theatre",
+    "title": "Falka",
+    "year": "1885",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Theatre Royal",
+    "title": "Whittington and his Cat",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Theatre Royal",
+    "title": "Robinson Crusoe",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Edinburgh",
+    "venue": "Theatre Royal",
+    "title": "The Arcadians",
+    "year": "1922",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Glasgow",
+    "venue": "Grand Theatre",
+    "title": "Aladdin",
+    "year": "1887",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Glasgow",
+    "venue": "Theatre Royal",
+    "title": "Bluebeard",
+    "year": "1890",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Glasgow",
+    "venue": "Theatre Royal",
+    "title": "Little Bo Peep",
+    "year": "1891",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Great Yarmouth",
+    "venue": "Royal Aquarium",
+    "title": "A Runaway Girl",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Harrogate",
+    "venue": "Opera House",
+    "title": "The Arcadians",
+    "year": "n/d",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Hull",
+    "venue": "Theatre Royal",
+    "title": "Falka",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Hull",
+    "venue": "Theatre Royal",
+    "title": "Robinson Crusoe",
+    "year": "1886",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Hull",
+    "venue": "Theatre Royal",
+    "title": "Aladdin",
+    "year": "1892",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "Robinson Crusoe",
+    "year": "1882",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "Humpty Dumpty",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "Bo-Peep",
+    "year": "1884",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "Three Little Maids",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "A Runaway Girl",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "The Orchid",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "Robinson Crusoe",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "The Dairymaids",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "The Dairymaids",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "Aladdin",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "The Dairymaids",
+    "year": "1908",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Grand Theatre",
+    "title": "The Arcadians",
+    "year": "1918",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leeds",
+    "venue": "Princes Theatre",
+    "title": "The Toreador",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leicester",
+    "venue": "Royal Opera House",
+    "title": "The Shop Girl",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Leicester",
+    "venue": "Royal Opera House",
+    "title": "The Toreador (2nd Edition)",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Forty Thieves",
+    "year": "1879",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Robin Hood",
+    "year": "1880",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Whittington & his Cat",
+    "year": "1881",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Boccaccio",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Blue Beard",
+    "year": "1882",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Olivette",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "La Mascotte",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Jack the Giant Killer",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Aladdin in a New Light",
+    "year": "1884",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Alexandra Theatre",
+    "title": "Cinderella",
+    "year": "1885",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Empire Palace",
+    "title": "Cinderella",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Kelly's Theatre",
+    "title": "The Dairy Maids",
+    "year": "1910",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Lyric Theatre",
+    "title": "The Messenger Boy",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Prince of Wales",
+    "title": "Oliver Grumble",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Prince of Wales",
+    "title": "Little Jack and the Big Beanstalk",
+    "year": "1888",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Prince of Wales",
+    "title": "Aladdin",
+    "year": "1889",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Prince of Wales",
+    "title": "Robinson Crusoe",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Prince of Wales",
+    "title": "Bluebell in Fairyland",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Prince of Wales",
+    "title": "Bluebell in Fairyland",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Liverpool",
+    "venue": "Shakespeare Theatre",
+    "title": "Dick Whittington and his Cat",
+    "year": "1909",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Lowestoft",
+    "venue": "Marina Theatre",
+    "title": "The Arcadians",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Comedy",
+    "title": "Jack and the Beanstalk",
+    "year": "1885",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Manchester",
+    "venue": "Comedy",
+    "title": "Dick Whittington",
+    "year": "1887",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Manchester",
+    "venue": "Grand Theatre",
+    "title": "Dick Whittington",
+    "year": "1896",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Hippodrome",
+    "title": "Spring Ballet + The Polka",
+    "year": "1917",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Palace",
+    "title": "Cleopatra",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Palace",
+    "title": "Cecile",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Palace",
+    "title": "Dolly",
+    "year": "1892",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Forty Thieves",
+    "year": "1879",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Jack and Jill",
+    "year": "1883",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "A Runaway Girl",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Cinderella",
+    "year": "1899",
+    "status": "To be acquired",
+    "notes": "checked"
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Aladdin or the Wonderful Lamp",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Messenger Boy",
+    "year": "1900",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Midsummer Night's Dream",
+    "year": "1901",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Sleeping Beauty",
+    "year": "1901",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "As You Like It",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "The Forty Thieves",
+    "year": "1903",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Cinderella",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Prince's Manchester",
+    "title": "Orchid",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Queens - Manchester",
+    "title": "Little Red Riding Hood",
+    "year": "1883",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Queens - Manchester",
+    "title": "Robinson Crusoe",
+    "year": "1889",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Blue Beard",
+    "year": "1880",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Little Bo Peep",
+    "year": "1881",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Sinbad the Sailor",
+    "year": "1882",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Harlequin Happy-go-Lucky + The Babes in the Wood",
+    "year": "1883",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Dick Whittington",
+    "year": "1885",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Bluebeard (Redyed)",
+    "year": "1886",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Old Mother Goose",
+    "year": "1887",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Babes in the Wood",
+    "year": "1898",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Aladdin",
+    "year": "1890",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Bold Robin Hood + The Babes in the Wood",
+    "year": "1903",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Bold Robin Hood",
+    "year": "1903",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Manchester",
+    "venue": "Theatre Royal",
+    "title": "Cinderella",
+    "year": "1909",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Theatre Royal",
+    "title": "Blue Beard",
+    "year": "1882",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Theatre Royal",
+    "title": "Forty Thieves",
+    "year": "1883",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Theatre Royal",
+    "title": "Little Red Riding Hood + Robin Hood",
+    "year": "1884",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Theatre Royal",
+    "title": "Aladdin",
+    "year": "1885",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Theatre Royal",
+    "title": "Carina",
+    "year": "1889",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "Sindbad the Sailor",
+    "year": "1883",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "Jack and the Beanstalk",
+    "year": "1884",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "Cinderella or the Little Glass Slipper",
+    "year": "1885",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "Whittington & his Cat",
+    "year": "1886",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "The Fair One with the Golden Locks",
+    "year": "1887",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "Puss in Boots",
+    "year": "1888",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "Babes in the Wood",
+    "year": "1889",
+    "status": "",
+    "notes": "*"
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "The Shop-Girl",
+    "year": "1895",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Newcastle",
+    "venue": "Tyne Theatre",
+    "title": "A Runaway Girl",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Northampton",
+    "venue": "Northampton Opera House",
+    "title": "Marjorie",
+    "year": "1890",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Nottingham",
+    "venue": "Grand Theatre",
+    "title": "Forty Thieves",
+    "year": "1887",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Nottingham",
+    "venue": "Theatre Royal, Nottingham",
+    "title": "Falka",
+    "year": "1891",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Nottingham",
+    "venue": "Theatre Royal, Nottingham",
+    "title": "The Toreador",
+    "year": "1902",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Oxford",
+    "venue": "New Theatre",
+    "title": "The Shop Girl",
+    "year": "1896",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Oxford",
+    "venue": "New Theatre",
+    "title": "The Shop Girl",
+    "year": "1899",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Oxford",
+    "venue": "New Theatre",
+    "title": "Runaway Girl",
+    "year": "1907",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Oxford",
+    "venue": "New Theatre",
+    "title": "The Dairy Maids",
+    "year": "",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Portsmouth",
+    "venue": "New Theatre Royal, Portsmouth",
+    "title": "Falka",
+    "year": "1887",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Reading",
+    "venue": "County Theatre",
+    "title": "The Arcadians",
+    "year": "1922",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Scarborough",
+    "venue": "Londesborough Theatre",
+    "title": "Cinder-Eller up Too Late",
+    "year": "1892",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Sheffield",
+    "venue": "Lyceum",
+    "title": "Three Little Maids",
+    "year": "1903",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Sheffield",
+    "venue": "Lyceum",
+    "title": "The Orchid",
+    "year": "1904",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Sheffield",
+    "venue": "Lyceum",
+    "title": "The Spring Chicken",
+    "year": "1906",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Sheffield",
+    "venue": "Lyceum",
+    "title": "Dick Whittington and his Cat",
+    "year": "1911-12",
+    "status": "Acquired",
+    "notes": ""
+  },
+  {
+    "city": "Sheffield",
+    "venue": "New Theatre Royal",
+    "title": "Jacks the Giant Killer",
+    "year": "1880",
+    "status": "To be acquired",
+    "notes": ""
+  },
+  {
+    "city": "Sunderland",
+    "venue": "Kings",
+    "title": "The Arcadians",
+    "year": "1911",
+    "status": "Acquired",
+    "notes": ""
+  }
+]

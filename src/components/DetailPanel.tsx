@@ -1,37 +1,90 @@
-import { createMemo, For, Show } from 'solid-js'
-import type { Production } from '../types'
-import DATA from '../data'
+import { createMemo, For, Show } from "solid-js";
+import DATA from "../data";
+import type { Production } from "../types";
+
+function RelatedRow(props: {
+  d: Production;
+  label: string;
+  onSelect?: (d: Production) => void;
+}) {
+  return (
+    <button
+      class="panel-related-row"
+      classList={{ want: props.d.status === "To be acquired" }}
+      onClick={() => props.onSelect?.(props.d)}
+      type="button"
+    >
+      <span class="pr-title">{props.label}</span>
+      <span class="pr-year">{props.d.year}</span>
+    </button>
+  );
+}
 
 export default function DetailPanel(props: {
-  production: Production | null
-  onClose: () => void
-  onSelect?: (d: Production) => void
+  production: Production | null;
+  onClose: () => void;
+  onSelect?: (d: Production) => void;
 }) {
   const sameVenue = createMemo(() => {
-    if (!props.production) return []
-    return DATA
-      .filter(d => d.venue === props.production!.venue && d.city === props.production!.city && d !== props.production!)
-      .sort((a, b) => (a._year ?? 9999) - (b._year ?? 9999))
-  })
+    const p = props.production;
+    if (!p) {
+      return [];
+    }
+    return DATA.filter(
+      (d) => d.venue === p.venue && d.city === p.city && d !== p
+    ).sort((a, b) => (a._year ?? 9999) - (b._year ?? 9999));
+  });
 
   const sameTitle = createMemo(() => {
-    if (!props.production) return []
-    return DATA
-      .filter(d => d.title === props.production!.title && d !== props.production!)
-      .sort((a, b) => (a._year ?? 9999) - (b._year ?? 9999))
-  })
+    const p = props.production;
+    if (!p) {
+      return [];
+    }
+    return DATA.filter((d) => d.title === p.title && d !== p).sort(
+      (a, b) => (a._year ?? 9999) - (b._year ?? 9999)
+    );
+  });
+
+  const handleOverlayKey = (e: KeyboardEvent) => {
+    if (e.key === "Enter" || e.key === " ") {
+      props.onClose();
+    }
+  };
+
+  const stopPanelClick = (e: Event) => e.stopPropagation();
 
   return (
-    <div class="panel-overlay" classList={{ open: !!props.production }} onClick={props.onClose}>
-      <div class="detail-panel" classList={{ open: !!props.production }} onClick={e => e.stopPropagation()}>
-        <button class="panel-close" onClick={props.onClose}>&times;</button>
+    // biome-ignore lint/a11y/noStaticElementInteractions: overlay backdrop pattern
+    // biome-ignore lint/a11y/noNoninteractiveElementInteractions: overlay backdrop pattern
+    <div
+      class="panel-overlay"
+      classList={{ open: !!props.production }}
+      onClick={props.onClose}
+      onKeyDown={handleOverlayKey}
+    >
+      {/* biome-ignore lint/a11y/noStaticElementInteractions: panel needs stopPropagation */}
+      {/* biome-ignore lint/a11y/noNoninteractiveElementInteractions: panel needs stopPropagation */}
+      {/* biome-ignore lint/a11y/useKeyWithClickEvents: stopPropagation only, not an action */}
+      <div
+        class="detail-panel"
+        classList={{ open: !!props.production }}
+        onClick={stopPanelClick}
+      >
+        <button class="panel-close" onClick={props.onClose} type="button">
+          &times;
+        </button>
 
         <Show when={props.production}>
-          {p => (
+          {(p) => (
             <>
               <div class="panel-header">
-                <div class="panel-status" classList={{ want: p().status === 'To be acquired' }}>
-                  {p().status === 'To be acquired' ? 'Still to acquire' : 'In collection'}
+                <div
+                  class="panel-status"
+                  classList={{ want: p().status === "To be acquired" }}
+                >
+                  {p().status === "To be acquired"
+                    ? "Still to acquire"
+                    : "In collection"}
                 </div>
                 <h2 class="panel-title">{p().title}</h2>
                 <div class="panel-meta">
@@ -45,24 +98,23 @@ export default function DetailPanel(props: {
 
               <Show when={p().notes}>
                 <div class="panel-notes">
-                  <label>Notes</label>
+                  <h3 class="panel-heading">Notes</h3>
                   <p>{p().notes}</p>
                 </div>
               </Show>
 
               <Show when={sameVenue().length > 0}>
                 <div class="panel-related">
-                  <label>Other productions at {p().venue}</label>
+                  <h3 class="panel-heading">
+                    Other productions at {p().venue}
+                  </h3>
                   <For each={sameVenue()}>
-                    {d => (
-                      <div
-                        class="panel-related-row"
-                        classList={{ want: d.status === 'To be acquired' }}
-                        onClick={() => props.onSelect?.(d)}
-                      >
-                        <span class="pr-title">{d.title}</span>
-                        <span class="pr-year">{d.year}</span>
-                      </div>
+                    {(d) => (
+                      <RelatedRow
+                        d={d}
+                        label={d.title}
+                        onSelect={props.onSelect}
+                      />
                     )}
                   </For>
                 </div>
@@ -70,23 +122,20 @@ export default function DetailPanel(props: {
 
               <Show when={sameTitle().length > 0}>
                 <div class="panel-related">
-                  <label>Other productions of this show</label>
+                  <h3 class="panel-heading">Other productions of this show</h3>
                   <For each={sameTitle()}>
-                    {d => (
-                      <div
-                        class="panel-related-row"
-                        classList={{ want: d.status === 'To be acquired' }}
-                        onClick={() => props.onSelect?.(d)}
-                      >
-                        <span class="pr-title">{d.venue}, {d.city}</span>
-                        <span class="pr-year">{d.year}</span>
-                      </div>
+                    {(d) => (
+                      <RelatedRow
+                        d={d}
+                        label={`${d.venue}, ${d.city}`}
+                        onSelect={props.onSelect}
+                      />
                     )}
                   </For>
                 </div>
               </Show>
 
-              <Show when={!sameVenue().length && !sameTitle().length}>
+              <Show when={!(sameVenue().length || sameTitle().length)}>
                 <div class="panel-empty">
                   No other related productions in this collection.
                 </div>
@@ -96,5 +145,5 @@ export default function DetailPanel(props: {
         </Show>
       </div>
     </div>
-  )
+  );
 }

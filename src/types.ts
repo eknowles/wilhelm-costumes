@@ -1,22 +1,22 @@
 export interface Production {
-  city: string
-  venue: string
-  title: string
-  year: string
-  status: 'Acquired' | 'To be acquired'
-  notes: string
-  _year: number | null
+  _year: number | null;
+  city: string;
+  notes: string;
+  status: "Acquired" | "To be acquired";
+  title: string;
+  venue: string;
+  year: string;
 }
 
-export type GroupMode = 'city' | 'venue' | 'title' | 'year'
-export type ViewMode = 'ledger' | 'timeline'
+export type GroupMode = "city" | "venue" | "title" | "year";
+export type ViewMode = "ledger" | "timeline";
 
 export interface AppStore {
-  group: GroupMode
-  search: string
-  onlyWanted: boolean
-  view: ViewMode
-  expandAll: boolean
-  rangeFrom: number
-  rangeTo: number
+  expandAll: boolean;
+  group: GroupMode;
+  onlyWanted: boolean;
+  rangeFrom: number;
+  rangeTo: number;
+  search: string;
+  view: ViewMode;
 }
