@@ -780,6 +780,7 @@ details.group > summary .gcount {
 }
 .tl-dot.has-chart {
   border: none;
+  box-shadow: 0 0 0 2.5px var(--bg);
 }
 .tl-dot .count {
   position: absolute;
