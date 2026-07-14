@@ -120,10 +120,24 @@ export default function Timeline() {
   };
 
   const sparkBars = createMemo(() => {
-    const bars: { year: number; pct: number }[] = [];
+    const bars: {
+      year: number;
+      pct: number;
+      acqCount: number;
+      wantCount: number;
+    }[] = [];
     for (let y = effectiveLo(); y <= effectiveHi(); y += 1) {
       const count = yearCounts()[y] || 0;
-      bars.push({ pct: (count / maxCount()) * 100, year: y });
+      const acqCount = list().filter(
+        (d) => d._year === y && d.status !== "To be acquired"
+      ).length;
+      const wantCount = count - acqCount;
+      bars.push({
+        acqCount,
+        pct: (count / maxCount()) * 100,
+        wantCount,
+        year: y,
+      });
     }
     return bars;
   });
@@ -238,13 +252,69 @@ export default function Timeline() {
           <div class="tl-spark-label">{effectiveLo()}</div>
           <div class="tl-spark-track">
             <For each={sparkBars()}>
-              {(b) => (
-                <div
-                  class="tl-spark-bar"
-                  style={{ height: `${Math.max(b.pct, 2)}%` }}
-                  title={`${b.year}: ${yearCounts()[b.year] || 0} productions`}
-                />
-              )}
+              {(b) => {
+                const hasBoth = b.acqCount > 0 && b.wantCount > 0;
+                let bg: string;
+                if (b.acqCount > 0 && b.wantCount === 0) {
+                  bg = "var(--gold)";
+                } else if (b.wantCount > 0 && b.acqCount === 0) {
+                  bg = "var(--red)";
+                } else if (hasBoth) {
+                  const acqPct =
+                    (b.acqCount / (b.acqCount + b.wantCount)) * 100;
+                  bg = `linear-gradient(to top, var(--gold) 0%, var(--gold) ${acqPct}%, var(--red) ${acqPct}%, var(--red) 100%)`;
+                } else {
+                  bg = "var(--gold-dim)";
+                }
+                const barTip = `${b.year}: ${b.acqCount} acquired, ${b.wantCount} wanted`;
+                const zoomToYear = () => {
+                  const focus = Math.max(lo(), Math.min(hi(), b.year));
+                  setZoomMin(focus - 2);
+                  setZoomMax(focus + 2);
+                };
+                return (
+                  <button
+                    class="tl-spark-bar"
+                    onClick={zoomToYear}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        zoomToYear();
+                      }
+                    }}
+                    onMouseEnter={(e) =>
+                      showTip(
+                        barTip,
+                        String(b.year),
+                        "",
+                        false,
+                        e.clientX,
+                        e.clientY
+                      )
+                    }
+                    onMouseLeave={() => {
+                      if (!tappedGroup()) {
+                        setTooltip(null);
+                      }
+                    }}
+                    onMouseMove={(e) =>
+                      showTip(
+                        barTip,
+                        String(b.year),
+                        "",
+                        false,
+                        e.clientX,
+                        e.clientY
+                      )
+                    }
+                    style={{
+                      background: bg,
+                      height: `${Math.max(b.pct, 2)}%`,
+                    }}
+                    title={barTip}
+                    type="button"
+                  />
+                );
+              }}
             </For>
           </div>
           <div class="tl-spark-label">{effectiveHi()}</div>
@@ -433,7 +503,9 @@ export default function Timeline() {
             <div class="t-title" classList={{ want: t().wanted }}>
               {t().year}
             </div>
-            <div class="t-row">{t().group}</div>
+            <Show when={t().group}>
+              <div class="t-row">{t().group}</div>
+            </Show>
             <div class="t-row">{t().titles}</div>
           </div>
         )}

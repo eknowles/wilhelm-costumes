@@ -671,12 +671,14 @@ details.group > summary .gcount {
 .tl-spark-bar {
   flex: 1;
   min-width: 2px;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
   background: var(--gold-dim);
+  border: none;
   border-radius: 1px 1px 0 0;
   transition: height 0.2s;
-}
-.tl-spark-bar:hover {
-  background: var(--gold);
 }
 
 .tl-axis {
